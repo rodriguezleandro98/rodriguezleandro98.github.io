@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina personal</title>
+    <!--Estilos y funciones-->
+    <link rel="shortcut icon" href="imagenes/icono.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="estilos/estilos.css">
+    <script src="funciones/funciones.js"></script>
+</head>
+<body>
+     <!--Menu-->
+   <div id="principal">
+       <img class="imgmia" src="imagenes/Screenshot_7.png" alt="">
+        <header>
+            <div id="logo">
+                <h3 class="classh3logo">Leandro Rodríguez</h3>
+                <p class="classplogo">Mi pagina web</p>
+            </div>
+            <nav class="menu">
+                <ul>
+                    <li><a href="#sobremi">Sobre mi</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section id="slide">
+            <img class="imgslide" src="imagenes/slide.png" width="880px" height="200" alt="">
+        </section>
+        <section id="categorias">
+            <section class="uno">
+              <img class="img" src="imagenes/face1.jpg" width="200px" height="100px" alt="">
+              <h2><a name=sobremi>Sobre mi:</a></h2>
+              <p>
+                   Mi nombre es Leandro Hernán Rodríguez, tengo 21 años, vivo en El Talar partido de Tigre 
+                  y estoy actualmente estudiando en la Universidad Tecnológica Nacional sede Pacheco.
+              </p>
+              
+          </section>
+          <section class="uno dos">
+              <img class="img" src="imagenes/trabajo.jpg" width="200px" height="100px" alt="">
+              <h2>Trabajo:</h2>
+              <p>
+                  Estoy actualmente trabajando remotamente para DXC Technology debido a la pandemia. Es una consultora de
+                  soporte tecnico remoto para Arcos Dorados.
+                  Es la primera experiencia en torno a Sistemas. 
+              </p>
+              
+          </section>
+          <section class="uno">
+              <img class="img" src="imagenes/gustos.png" width="200px" height="100px" alt="">
+              <h2>Ocio:</h2>
+              <p>
+                  Soy muy fan de los videojuegos de estrategia y mmorpg. Respecto a peliculas y series que venga lo que venga.
+                 Y bueno no hay que olvidarse de mi segundo amor la cerveza.
+              </p>
+              
+          </section>
+        </section>
+    </div>
+    <footer class="footer">
+        <section class="columna1">
+              <h2 class="classh2">
+                 Enviame un mensaje
+              </h2>
+              <div>
+                <input type="text" id="txtNombreyApellido" name="nombre" placeholder="Escribe aqui" required>
+                <textarea name="mensaje" id="txtMensaje" cols="30" rows="10" placeholder="Escribe aqui" required></textarea>
+                <input id="txtEmail" type="text" placeholder="Escribe aqui" required>
+                <input type="submit" value="ENVIAR" class="btn" onclick="validar()" required>
+              </div>
+        </section> 
+        <section class="columna2">   
+          <h2 class="classh2">
+              <a name=contacto>Contacto</a>
+          </h2>
+          <div class="row">
+              <img src="imagenes/ig.jpg" alt="">
+              <label><a href="https://www.instagram.com/leandrohrodriguez_/">Instagram</a></label>
+          </div>
+          <div class="row">
+              <img src="imagenes/gmail.png" alt="">
+              <label class="label">Gmail</label>
+          </div>
+          <div class="row">
+              <img src="imagenes/linkedin.png" alt="">
+              <label><a href="https://www.linkedin.com/in/leandro-hernan-rodriguez-42688b17a/">Linkedin</a></label>
+          </div>
+          <div class="row">
+              <img src="imagenes/facebook.png" alt="">
+              <label><a href="https://www.facebook.com/">Facebook</a></label>
+              
+          </div>
+        </section>
+ </footer>
+</body>
+</html>
